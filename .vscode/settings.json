@@ -1,0 +1,7 @@
+{
+        "C_Cpp.default.compilerPath": "/home/hamza/Desktop/binary_trees/0-binary_tree_node.c",
+        "files.associations": {
+                "binary_trees.h": "c",
+                "stdio.h": "c"
+        }
+}

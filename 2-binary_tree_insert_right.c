@@ -3,8 +3,8 @@
 /**
  * binary_tree_insert_right - create a binary tree node
  *
- * @parent: pointer to the parent
- * @value: the value to put in the node
+ * @parent: pointer to the parent.
+ * @value: the value to put in the node.
  *
  * Return: pointer to the new node
  */

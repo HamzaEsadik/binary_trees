@@ -17,3 +17,6 @@ A binary tree is a hierarchical data structure in which each node has at most tw
 
 ## Binary Tree Basics
 The binary_tree.c file contains a basic implementation of a binary tree in C. This includes the definition of a Node structure and functions for basic tree operations, such as insertion and deletion.
+
+## Traversal Techniques
+Understanding how to traverse a binary tree is crucial. The traversal.c file provides implementations for three common traversal techniques in C: in-order, pre-order, and post-order. These functions help you explore the nodes of the tree in different orders.

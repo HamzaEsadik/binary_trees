@@ -20,3 +20,6 @@ The binary_tree.c file contains a basic implementation of a binary tree in C. Th
 
 ## Traversal Techniques
 Understanding how to traverse a binary tree is crucial. The traversal.c file provides implementations for three common traversal techniques in C: in-order, pre-order, and post-order. These functions help you explore the nodes of the tree in different orders.
+
+## Binary Search Trees
+A binary search tree (BST) is a type of binary tree that maintains the property that the key in each node must be greater than or equal to any key stored in the left sub-tree and less than or equal to any key stored in the right sub-tree. Explore the bst.c file to see how BSTs are implemented in C and how they differ from regular binary trees.

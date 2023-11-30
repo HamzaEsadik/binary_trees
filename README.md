@@ -23,3 +23,6 @@ Understanding how to traverse a binary tree is crucial. The traversal.c file pro
 
 ## Binary Search Trees
 A binary search tree (BST) is a type of binary tree that maintains the property that the key in each node must be greater than or equal to any key stored in the left sub-tree and less than or equal to any key stored in the right sub-tree. Explore the bst.c file to see how BSTs are implemented in C and how they differ from regular binary trees.
+
+## Common Operations
+The operations.c file includes additional operations commonly performed on binary trees in C, such as finding the height, checking if a tree is balanced, and searching for a specific element.

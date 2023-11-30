@@ -1,7 +1,32 @@
 #include "binary_trees.h"
 
 /**
- * binary_tree_depth -measures the depth of a Node in a binary tree
+ * binary_tree_isroot - checks if a given node is a root
+ *
+ * @node: pointer to the node to check
+ *
+ * Return: 1 if node is a root, otherwise 0
+*/
+int binary_tree_isroot(const binary_tree_t *node)
+{
+	if (node != NULL)
+	{
+		if (node->parent == NULL)
+		{
+			return (1);
+		}
+		else
+		{
+			return (0);
+		}
+	}
+	else
+	{
+		return (0);
+	}
+}
+/**
+ * binary_tree_depth -measures the depth of a node in a binary tree
  *
  * @tree:   is a pointer to the node to measure the depth
  *
@@ -9,5 +34,9 @@
 */
 size_t binary_tree_depth(const binary_tree_t *tree)
 {
-	return (0);
+	if (binary_tree_isroot(tree) == 1 || tree == NULL)
+	{
+		return (0);
+	}
+	return (binary_tree_depth(tree->parent) + 1);
 }

@@ -6,7 +6,7 @@
  *
  * Return: 1 if node if leaf 0 if not
  */
-int binary_tree_isleaf(const binary_tree_t *node)
+int binary_tree_is_leaf(const binary_tree_t *node)
 {
 	if (node == NULL)
 		return (0);

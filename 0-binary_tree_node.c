@@ -4,7 +4,7 @@
  * binary_tree_node - create a binary tree node
  *
  * @parent: pointer to the parent
- * @value: the value to put in the node
+ * @value: The value to put in the node
  *
  * Return: pointer to the new node
  */

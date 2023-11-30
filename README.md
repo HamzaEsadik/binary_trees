@@ -26,3 +26,6 @@ A binary search tree (BST) is a type of binary tree that maintains the property 
 
 ## Common Operations
 The operations.c file includes additional operations commonly performed on binary trees in C, such as finding the height, checking if a tree is balanced, and searching for a specific element.
+
+## Contributing
+We welcome contributions! If you have improvements, bug fixes, or new features to add, please follow the contribution guidelines provided in the repository.

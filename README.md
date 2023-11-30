@@ -15,5 +15,5 @@ Welcome to the Binary Trees repository! This collection of code and resources is
 ## Introduction
 A binary tree is a hierarchical data structure in which each node has at most two children, referred to as the left child and the right child. These structures are widely used in computer science for various applications, such as search operations, expression trees, and hierarchical representation of data.
 
-## Getting Started
-Clone this repository to your local machine using:
+## Binary Tree Basics
+The binary_tree.c file contains a basic implementation of a binary tree in C. This includes the definition of a Node structure and functions for basic tree operations, such as insertion and deletion.
